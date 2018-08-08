@@ -1,0 +1,15 @@
+uuid: 4842c2ce-4477-43c6-b4e2-79a910fb1040
+name: 'Anytown Farmers Market'
+mail: shirley.fefel@comcast.net
+slogan: 'Farm Fresh Food'
+page:
+  403: ''
+  404: ''
+  front: /node/2
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+mail_notification: ''

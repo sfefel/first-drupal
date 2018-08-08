@@ -1,0 +1,15 @@
+label: Recetas
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Applicar
+      filters:
+        field_ingredients_target_id:
+          expose:
+            label: 'Encontrar recetas usando…'
+  block_1:
+    display_title: 'Recetas recientes'
+    display_options:
+      title: 'Nuevas recetas'

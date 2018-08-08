@@ -1,0 +1,21 @@
+uuid: e8c46cd8-c9ff-4d5b-a18a-7195c07fe4ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_author
+    - node.type.blogging_site
+  module:
+    - text
+id: node.blogging_site.field_author
+field_name: field_author
+entity_type: node
+bundle: blogging_site
+label: 'Authored by'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

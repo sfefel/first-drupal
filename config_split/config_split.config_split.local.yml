@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+id: local
+label: Local
+folder: ../config/default/local
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 1

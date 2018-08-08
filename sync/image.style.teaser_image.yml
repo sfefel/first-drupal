@@ -1,0 +1,17 @@
+uuid: 6b1fb579-c748-4f3d-8423-a284b68e9dcb
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: teaser_image
+label: 'Teaser Image'
+effects:
+  5507ea17-cb65-4d21-94bc-43aec9473ea4:
+    uuid: 5507ea17-cb65-4d21-94bc-43aec9473ea4
+    id: focal_point_scale_and_crop
+    weight: 2
+    data:
+      width: 500
+      height: 400
+      crop_type: focal_point

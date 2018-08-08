@@ -1,0 +1,25 @@
+uuid: 96937183-fdcd-4164-9d0c-8e9e63e3e42a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e189e4df-702a-4a1a-91c1-4072813f4650'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: hoursandlocationblock
+theme: bartik
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'block_content:e189e4df-702a-4a1a-91c1-4072813f4650'
+settings:
+  id: 'block_content:e189e4df-702a-4a1a-91c1-4072813f4650'
+  label: 'Hours and location block'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

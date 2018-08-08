@@ -1,0 +1,24 @@
+uuid: c179010a-722c-426b-a898-87d187d096ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.blog_teaser
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__blog_teaser_block_1
+theme: bartik
+region: featured_bottom_first
+weight: 0
+provider: null
+plugin: 'views_block:blog_teaser-block_1'
+settings:
+  id: 'views_block:blog_teaser-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

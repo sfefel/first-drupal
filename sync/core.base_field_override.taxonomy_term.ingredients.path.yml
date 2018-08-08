@@ -1,0 +1,20 @@
+uuid: d81f7113-1d11-4a05-80fa-35a82ba01781
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.ingredients
+  module:
+    - path
+id: taxonomy_term.ingredients.path
+field_name: path
+entity_type: taxonomy_term
+bundle: ingredients
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

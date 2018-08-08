@@ -1,0 +1,30 @@
+uuid: 19f7ba62-d8bd-4097-ab48-ae4b78fc2269
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_page_image2
+field_name: field_page_image2
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: dac6b28c-8216-45f0-8676-b9b5f5dbf712
+    alt: 'Koala Climbing Tree'
+    title: 'Blogging Home Page'
+    width: 1132
+    height: 1113
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

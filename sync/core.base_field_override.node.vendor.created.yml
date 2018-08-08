@@ -1,0 +1,18 @@
+uuid: 3eed13f0-6381-49f2-976b-556c501327db
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.vendor
+id: node.vendor.created
+field_name: created
+entity_type: node
+bundle: vendor
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

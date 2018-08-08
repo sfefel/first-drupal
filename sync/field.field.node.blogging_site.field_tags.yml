@@ -1,0 +1,29 @@
+uuid: 700e984f-a5b2-4945-9135-a21ce9d3da93
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.blogging_site
+    - taxonomy.vocabulary.tags
+id: node.blogging_site.field_tags
+field_name: field_tags
+entity_type: node
+bundle: blogging_site
+label: Tags
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
