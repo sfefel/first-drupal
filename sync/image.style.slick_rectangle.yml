@@ -1,0 +1,19 @@
+uuid: f250332f-ba37-4313-91a4-e096196fb7fb
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - slick_example
+_core:
+  default_config_hash: mN9A9KLREQFNBLovG0quYkJHU4wGhEDVLLgZj-G2aQY
+name: slick_rectangle
+label: 'Slick rectangle'
+effects:
+  5062a573-e81a-4412-b106-6d25387cc519:
+    uuid: 5062a573-e81a-4412-b106-6d25387cc519
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 640
+      height: 480

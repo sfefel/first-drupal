@@ -1,0 +1,18 @@
+uuid: e9363884-65de-49a7-8888-4caf869173ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.hero_image
+id: node.hero_image.title
+field_name: title
+entity_type: node
+bundle: hero_image
+label: 'Hero Image'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

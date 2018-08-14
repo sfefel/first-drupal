@@ -1,0 +1,18 @@
+uuid: be2fe2a8-5de3-44e0-a6d0-7ecf0688a046
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:standard.front_page'
+name: 'Hero Image'
+type: hero_image
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

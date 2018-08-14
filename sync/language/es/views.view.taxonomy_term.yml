@@ -23,7 +23,7 @@ display:
       arguments:
         tid:
           exception:
-            title: Todo
+            title: Todo(s)
           title: '{{ arguments.tid }}'
   feed_1:
     display_title: Agregador
