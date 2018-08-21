@@ -1,0 +1,26 @@
+uuid: 9a2d0650-0085-4031-86dd-38862f5a290d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.contact_us
+  module:
+    - text
+id: node.contact_us.body
+field_name: body
+entity_type: node
+bundle: contact_us
+label: Body
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    summary: ''
+    value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br />\r\n<br />\r\nC/O https://placeholder.com/text/lorem-ipsum/</p>\r\n"
+    format: basic_html
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

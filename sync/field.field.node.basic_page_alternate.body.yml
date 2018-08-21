@@ -1,0 +1,22 @@
+uuid: c4bbd987-bc58-400b-b8cd-1d378119a2b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.basic_page_alternate
+  module:
+    - text
+id: node.basic_page_alternate.body
+field_name: body
+entity_type: node
+bundle: basic_page_alternate
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

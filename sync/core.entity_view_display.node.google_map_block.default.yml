@@ -1,0 +1,29 @@
+uuid: 92d2ced8-fe59-416f-962d-6a2b23050a42
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.google_map_block.body
+    - node.type.google_map_block
+  module:
+    - text
+    - user
+id: node.google_map_block.default
+targetEntityType: node
+bundle: google_map_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

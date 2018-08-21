@@ -1,0 +1,26 @@
+uuid: 67174fd5-b74e-4fb0-a4bd-18d8ea6748db
+langcode: en
+status: true
+dependencies:
+  module:
+    - googlemap_block
+    - system
+  theme:
+    - bartik
+id: googlemapblock
+theme: bartik
+region: content
+weight: 11
+provider: null
+plugin: googlemap_block
+settings:
+  id: googlemap_block
+  label: 'Google Map Block'
+  provider: googlemap_block
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact-us
+    negate: false
+    context_mapping: {  }

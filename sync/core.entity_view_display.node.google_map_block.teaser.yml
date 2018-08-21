@@ -1,0 +1,29 @@
+uuid: ccc94e59-cb4e-42bd-97cd-0300e386c7a4
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.google_map_block.body
+    - node.type.google_map_block
+  module:
+    - text
+    - user
+id: node.google_map_block.teaser
+targetEntityType: node
+bundle: google_map_block
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

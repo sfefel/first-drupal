@@ -1,0 +1,22 @@
+uuid: 3bdc852a-51cc-40a6-ab7c-127680cc54dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.google_map_block
+  module:
+    - text
+id: node.google_map_block.body
+field_name: body
+entity_type: node
+bundle: google_map_block
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

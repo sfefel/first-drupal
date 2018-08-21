@@ -1,0 +1,11 @@
+uuid: 6b0a3d97-9357-405f-9513-665c8e69c7ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.google_map_block
+id: node.google_map_block
+target_entity_type_id: node
+target_bundle: google_map_block
+default_langcode: site_default
+language_alterable: false

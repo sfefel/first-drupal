@@ -1,0 +1,29 @@
+uuid: 52ac872a-0672-4cae-9b9d-394a8b881c45
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.basic_page_alternate.body
+    - node.type.basic_page_alternate
+  module:
+    - text
+    - user
+id: node.basic_page_alternate.default
+targetEntityType: node
+bundle: basic_page_alternate
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

@@ -2,6 +2,8 @@ uuid: 89b7a735-dd54-4380-be50-4428873fa013
 langcode: en
 status: true
 dependencies:
+  module:
+    - system
   theme:
     - bartik
 _core:
@@ -17,4 +19,9 @@ settings:
   label: 'Primary admin actions'
   provider: core
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact-us
+    negate: true
+    context_mapping: {  }

@@ -1,0 +1,5 @@
+settings:
+  confirmation_message: 'Se ha enviado su mensaje.'
+handlers:
+  email_notification:
+    label: 'Aviso por correo electrónico'

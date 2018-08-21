@@ -1,0 +1,18 @@
+uuid: d199fca9-7239-4107-9765-17d20b4601e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.google_map_block
+id: node.google_map_block.title
+field_name: title
+entity_type: node
+bundle: google_map_block
+label: 'Google Map Block'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -2,6 +2,8 @@ uuid: 4bf9e23a-dd34-462e-9a5c-fb1ef80d4dba
 langcode: en
 status: true
 dependencies:
+  module:
+    - system
   theme:
     - bartik
 _core:
@@ -19,4 +21,9 @@ settings:
   label_display: '0'
   primary: true
   secondary: true
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: ' '
+    negate: true
+    context_mapping: {  }
