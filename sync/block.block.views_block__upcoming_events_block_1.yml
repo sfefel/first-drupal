@@ -1,0 +1,24 @@
+uuid: b3ab554b-e195-4ee5-a494-cf134c58ed8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.upcoming_events
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__upcoming_events_block_1
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:upcoming_events-block_1'
+settings:
+  id: 'views_block:upcoming_events-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

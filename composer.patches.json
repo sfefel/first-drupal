@@ -1,0 +1,7 @@
+{
+    "patches": {
+        "drupal/core": {
+            "Make datetime range work with views": "https://www.drupal.org/files/issues/improve_the_views-2786577-76-core.patch"
+        }
+    }
+}

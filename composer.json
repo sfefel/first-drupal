@@ -105,6 +105,7 @@
             "docroot/profiles/contrib/{$name}": ["type:drupal-profile"],
             "docroot/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
-        }
+        },
+        "patches-file": "composer.patches.json"
     }
 }
